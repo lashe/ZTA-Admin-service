@@ -1,0 +1,140 @@
+2024-09-07 15:44:25:4425 [ [31merror[39m ]: [31muncaughtException: Cannot find module '../../middlewares/userAuth/authMiddleware'[39m
+[31mRequire stack:[39m
+[31m- /Users/lashe/Documents/GitHub/ZTA-Admin-service/src/routes/v1/auth.js[39m
+[31m- /Users/lashe/Documents/GitHub/ZTA-Admin-service/src/routes/v1/index.js[39m
+[31m- /Users/lashe/Documents/GitHub/ZTA-Admin-service/src/app.js[39m
+[31m- /Users/lashe/Documents/GitHub/ZTA-Admin-service/src/index.js[39m
+[31mError: Cannot find module '../../middlewares/userAuth/authMiddleware'[39m
+[31mRequire stack:[39m
+[31m- /Users/lashe/Documents/GitHub/ZTA-Admin-service/src/routes/v1/auth.js[39m
+[31m- /Users/lashe/Documents/GitHub/ZTA-Admin-service/src/routes/v1/index.js[39m
+[31m- /Users/lashe/Documents/GitHub/ZTA-Admin-service/src/app.js[39m
+[31m- /Users/lashe/Documents/GitHub/ZTA-Admin-service/src/index.js[39m
+[31m    at Module._resolveFilename (node:internal/modules/cjs/loader:1048:15)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:901:27)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1115:19)[39m
+[31m    at require (node:internal/modules/helpers:130:18)[39m
+[31m    at Object.<anonymous> (/Users/lashe/Documents/GitHub/ZTA-Admin-service/src/routes/v1/auth.js:3:26)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1241:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1091:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:938:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1115:19)[39m
+2024-09-07 15:47:28:4728 [ [31merror[39m ]: [31muncaughtException: Cannot find module '../../app/users'[39m
+[31mRequire stack:[39m
+[31m- /Users/lashe/Documents/GitHub/ZTA-Admin-service/src/routes/v1/admin.js[39m
+[31m- /Users/lashe/Documents/GitHub/ZTA-Admin-service/src/routes/v1/index.js[39m
+[31m- /Users/lashe/Documents/GitHub/ZTA-Admin-service/src/app.js[39m
+[31m- /Users/lashe/Documents/GitHub/ZTA-Admin-service/src/index.js[39m
+[31mError: Cannot find module '../../app/users'[39m
+[31mRequire stack:[39m
+[31m- /Users/lashe/Documents/GitHub/ZTA-Admin-service/src/routes/v1/admin.js[39m
+[31m- /Users/lashe/Documents/GitHub/ZTA-Admin-service/src/routes/v1/index.js[39m
+[31m- /Users/lashe/Documents/GitHub/ZTA-Admin-service/src/app.js[39m
+[31m- /Users/lashe/Documents/GitHub/ZTA-Admin-service/src/index.js[39m
+[31m    at Module._resolveFilename (node:internal/modules/cjs/loader:1048:15)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:901:27)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1115:19)[39m
+[31m    at require (node:internal/modules/helpers:130:18)[39m
+[31m    at Object.<anonymous> (/Users/lashe/Documents/GitHub/ZTA-Admin-service/src/routes/v1/admin.js:2:28)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1241:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1091:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:938:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1115:19)[39m
+2024-09-07 15:48:07:487 [ [31merror[39m ]: [31muncaughtException: Cannot find module './userServices'[39m
+[31mRequire stack:[39m
+[31m- /Users/lashe/Documents/GitHub/ZTA-Admin-service/src/app/admin/authController.js[39m
+[31m- /Users/lashe/Documents/GitHub/ZTA-Admin-service/src/app/admin/index.js[39m
+[31m- /Users/lashe/Documents/GitHub/ZTA-Admin-service/src/routes/v1/admin.js[39m
+[31m- /Users/lashe/Documents/GitHub/ZTA-Admin-service/src/routes/v1/index.js[39m
+[31m- /Users/lashe/Documents/GitHub/ZTA-Admin-service/src/app.js[39m
+[31m- /Users/lashe/Documents/GitHub/ZTA-Admin-service/src/index.js[39m
+[31mError: Cannot find module './userServices'[39m
+[31mRequire stack:[39m
+[31m- /Users/lashe/Documents/GitHub/ZTA-Admin-service/src/app/admin/authController.js[39m
+[31m- /Users/lashe/Documents/GitHub/ZTA-Admin-service/src/app/admin/index.js[39m
+[31m- /Users/lashe/Documents/GitHub/ZTA-Admin-service/src/routes/v1/admin.js[39m
+[31m- /Users/lashe/Documents/GitHub/ZTA-Admin-service/src/routes/v1/index.js[39m
+[31m- /Users/lashe/Documents/GitHub/ZTA-Admin-service/src/app.js[39m
+[31m- /Users/lashe/Documents/GitHub/ZTA-Admin-service/src/index.js[39m
+[31m    at Module._resolveFilename (node:internal/modules/cjs/loader:1048:15)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:901:27)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1115:19)[39m
+[31m    at require (node:internal/modules/helpers:130:18)[39m
+[31m    at Object.<anonymous> (/Users/lashe/Documents/GitHub/ZTA-Admin-service/src/app/admin/authController.js:4:48)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1241:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1091:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:938:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1115:19)[39m
+2024-09-07 15:49:07:497 [ [31merror[39m ]: [31muncaughtException: Cannot find module './userServices'[39m
+[31mRequire stack:[39m
+[31m- /Users/lashe/Documents/GitHub/ZTA-Admin-service/src/app/admin/authController.js[39m
+[31m- /Users/lashe/Documents/GitHub/ZTA-Admin-service/src/app/admin/index.js[39m
+[31m- /Users/lashe/Documents/GitHub/ZTA-Admin-service/src/routes/v1/admin.js[39m
+[31m- /Users/lashe/Documents/GitHub/ZTA-Admin-service/src/routes/v1/index.js[39m
+[31m- /Users/lashe/Documents/GitHub/ZTA-Admin-service/src/app.js[39m
+[31m- /Users/lashe/Documents/GitHub/ZTA-Admin-service/src/index.js[39m
+[31mError: Cannot find module './userServices'[39m
+[31mRequire stack:[39m
+[31m- /Users/lashe/Documents/GitHub/ZTA-Admin-service/src/app/admin/authController.js[39m
+[31m- /Users/lashe/Documents/GitHub/ZTA-Admin-service/src/app/admin/index.js[39m
+[31m- /Users/lashe/Documents/GitHub/ZTA-Admin-service/src/routes/v1/admin.js[39m
+[31m- /Users/lashe/Documents/GitHub/ZTA-Admin-service/src/routes/v1/index.js[39m
+[31m- /Users/lashe/Documents/GitHub/ZTA-Admin-service/src/app.js[39m
+[31m- /Users/lashe/Documents/GitHub/ZTA-Admin-service/src/index.js[39m
+[31m    at Module._resolveFilename (node:internal/modules/cjs/loader:1048:15)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:901:27)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1115:19)[39m
+[31m    at require (node:internal/modules/helpers:130:18)[39m
+[31m    at Object.<anonymous> (/Users/lashe/Documents/GitHub/ZTA-Admin-service/src/app/admin/authController.js:4:48)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1241:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1091:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:938:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1115:19)[39m
+2024-09-07 15:54:57:5457 [ [31merror[39m ]: [31muncaughtException: Cannot find module '../../app/users'[39m
+[31mRequire stack:[39m
+[31m- /Users/lashe/Documents/GitHub/ZTA-Admin-service/src/routes/v1/auth.js[39m
+[31m- /Users/lashe/Documents/GitHub/ZTA-Admin-service/src/routes/v1/index.js[39m
+[31m- /Users/lashe/Documents/GitHub/ZTA-Admin-service/src/app.js[39m
+[31m- /Users/lashe/Documents/GitHub/ZTA-Admin-service/src/index.js[39m
+[31mError: Cannot find module '../../app/users'[39m
+[31mRequire stack:[39m
+[31m- /Users/lashe/Documents/GitHub/ZTA-Admin-service/src/routes/v1/auth.js[39m
+[31m- /Users/lashe/Documents/GitHub/ZTA-Admin-service/src/routes/v1/index.js[39m
+[31m- /Users/lashe/Documents/GitHub/ZTA-Admin-service/src/app.js[39m
+[31m- /Users/lashe/Documents/GitHub/ZTA-Admin-service/src/index.js[39m
+[31m    at Module._resolveFilename (node:internal/modules/cjs/loader:1048:15)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:901:27)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1115:19)[39m
+[31m    at require (node:internal/modules/helpers:130:18)[39m
+[31m    at Object.<anonymous> (/Users/lashe/Documents/GitHub/ZTA-Admin-service/src/routes/v1/auth.js:2:28)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1241:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1091:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:938:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1115:19)[39m
+2024-09-07 15:56:39:5639 [ [31merror[39m ]: [31muncaughtException: Cannot find module '../../middlewares/userAuth/authMiddleware'[39m
+[31mRequire stack:[39m
+[31m- /Users/lashe/Documents/GitHub/ZTA-Admin-service/src/routes/v1/auth.js[39m
+[31m- /Users/lashe/Documents/GitHub/ZTA-Admin-service/src/routes/v1/index.js[39m
+[31m- /Users/lashe/Documents/GitHub/ZTA-Admin-service/src/app.js[39m
+[31m- /Users/lashe/Documents/GitHub/ZTA-Admin-service/src/index.js[39m
+[31mError: Cannot find module '../../middlewares/userAuth/authMiddleware'[39m
+[31mRequire stack:[39m
+[31m- /Users/lashe/Documents/GitHub/ZTA-Admin-service/src/routes/v1/auth.js[39m
+[31m- /Users/lashe/Documents/GitHub/ZTA-Admin-service/src/routes/v1/index.js[39m
+[31m- /Users/lashe/Documents/GitHub/ZTA-Admin-service/src/app.js[39m
+[31m- /Users/lashe/Documents/GitHub/ZTA-Admin-service/src/index.js[39m
+[31m    at Module._resolveFilename (node:internal/modules/cjs/loader:1048:15)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:901:27)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1115:19)[39m
+[31m    at require (node:internal/modules/helpers:130:18)[39m
+[31m    at Object.<anonymous> (/Users/lashe/Documents/GitHub/ZTA-Admin-service/src/routes/v1/auth.js:3:26)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1241:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1091:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:938:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1115:19)[39m
